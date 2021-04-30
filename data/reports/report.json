@@ -1,0 +1,152 @@
+[
+  {
+    "uri": "features/teste_1.feature",
+    "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho",
+    "keyword": "Funcionalidade",
+    "name": "Validando que busquei produto na amazon e coloquei o produto pesquisado no carrinho",
+    "description": "",
+    "line": 5,
+    "tags": [
+      {
+        "name": "@cart_validation_amazon",
+        "line": 4
+      }
+    ],
+    "comments": [
+      {
+        "value": "#encode:",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-calidando-que-o-mesmo-é-correto",
+        "keyword": "Cenario",
+        "name": "Pesquisar e colocar um produto no carrinho, calidando que o mesmo é correto",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@cart_validation_amazon",
+            "line": 4
+          },
+          {
+            "name": "@fralda_g",
+            "line": 23
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29366
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26117
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2980491443
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que entrei no site da amazon",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/step_teste_01.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7516128686
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "busquei por \"Fralda_g\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/step_teste_01.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15761453983
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "seleciono o produto \"Fralda_g\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/step_teste_01.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/step_definitions/step_teste_01.rb:29:in `\"seleciono o produto {string}\"'\nfeatures/teste_1.feature:27:in `E seleciono o produto \"Fralda_g\"'",
+              "duration": 30004437077
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "clico em adicionar no carrinho",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/step_teste_01.rb:32"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido que \"Fralda_g\" foi adicionado no carrinho",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/step_teste_01.rb:36"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263852898
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94835398
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
