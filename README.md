@@ -12,3 +12,14 @@ No contexto de compra recorrente, selecionamos comprar apenas uma vez.
 <b><Linguagem>Linguagem de programação:</b>Ruby<br>
 <b>Linguagem de escrita de cenários de Teste:</b>Cucumber/pt-Gherkin<br>
 <b>Web Driver:</b>Selenium
+  
+# O teste
+O BDD foi feito no aquivo teste_1.feature. Este é o teste padrão, para produtos que não possuem opção de compra poir recorrência.
+Para rodar o teste, uma vez que sua máquina esteja devidamemente configurada,  basta dar o comando no terminal
+
+`cucumber -t@teste_1`
+
+# Estrutura de pastas
+Você pode observar que o projeto é dividido em diversas pastas que interagem entre si. 
+Temos o arquivo elementos.yml que possui os elementos de CSS mapeados no site da amazon. Esse elementos são chamados no Metodos.rb, onde descrevemos os métodos que são utilizados.
+Além disso o arquivo massa_teste.yml possui os valores que vamos testar vinculados a uma chave que é chamada no BDD.
