@@ -23,6 +23,7 @@ end
 Dado("clico em adicionar no carrinho") do
   #binding.pry
   Metodos.new.add_carrinho
+  sleep(5)
 end
 
 Então("valido que {string} foi adicionado no carrinho") do |produto|
