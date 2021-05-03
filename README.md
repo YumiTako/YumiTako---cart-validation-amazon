@@ -1,6 +1,10 @@
 # cart-validation-amazon
 Testes em BDD com Ruby para validação de inclusão de itens no carrinho em sites.
 
+# Preview
+Depois de quase 2 anos em busca de uma transição de carreira estou fazendo o meu primeiro projeto de automação de testes com Selenium Web Driver com Ruby.
+Os desafios são grandes, mas estou muito animada de compartilhar esse projeto e espero conseguir ajudar futuros testers!
+
 # Descrição
 O desafio era pesquisar um produto em um site de e commerce, colocar o produto no carrinho e validar que o mesmo esteja REALMENTE no carrinho.<br>
 O projeto possui 2 cenários de análise: Compra normal e Compra recorrente.
@@ -18,6 +22,10 @@ O BDD foi feito no aquivo teste_1.feature. Este é o teste padrão, para produto
 Para rodar o teste, uma vez que sua máquina esteja devidamemente configurada,  basta dar o comando no terminal
 
 `cucumber -t@teste_1`
+
+Também temos o compra_recorrente.feature onde preparamos o canário de compras com opção de recorrência. Inicialmente o cenário é de uma compra isolada apenas. Para realizar esse teste basta utilizar o comando abaixo:
+
+`cucumber -t@cart_validation_amazon_recorrente`
 
 # Estrutura de pastas
 Você pode observar que o projeto é dividido em diversas pastas que interagem entre si. 
