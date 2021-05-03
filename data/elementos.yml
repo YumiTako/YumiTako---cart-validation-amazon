@@ -1,0 +1,10 @@
+#Amazon Maio 2021#
+
+campo_busca: input[id='twotabsearchtextbox']
+botão_busca: input[id='nav-search-submit-button']
+titulo_resultado: span[class='a-size-base-plus a-color-base a-text-normal']
+add_carrinho: input[id='add-to-cart-button']
+botao_carrinho_inicial: span[class='nav-cart-icon nav-sprite']
+botao_carrinho2: a[id='hlb-view-cart-announce']
+titulo_produto_carrinho: span[class='a-size-medium a-color-base sc-product-title']
+#class="a-size-medium a-color-base sc-product-title"

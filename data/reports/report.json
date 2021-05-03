@@ -24,7 +24,7 @@
         "keyword": "Cenario",
         "name": "Pesquisar e colocar um produto no carrinho, calidando que o mesmo é correto",
         "description": "",
-        "line": 24,
+        "line": 16,
         "type": "scenario",
         "tags": [
           {
@@ -32,8 +32,8 @@
             "line": 4
           },
           {
-            "name": "@fralda_g",
-            "line": 23
+            "name": "@kindle",
+            "line": 15
           }
         ],
         "before": [
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29366
+              "duration": 33269
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26117
+              "duration": 28846
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2980491443
+              "duration": 3020763019
             }
           }
         ],
@@ -69,60 +69,62 @@
           {
             "keyword": "Dado ",
             "name": "que entrei no site da amazon",
-            "line": 25,
+            "line": 17,
             "match": {
               "location": "features/step_definitions/step_teste_01.rb:2"
             },
             "result": {
               "status": "passed",
-              "duration": 7516128686
+              "duration": 2290605991
             }
           },
           {
             "keyword": "E ",
-            "name": "busquei por \"Fralda_g\"",
-            "line": 26,
+            "name": "busquei por \"kindle_paperwhite\"",
+            "line": 18,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:18"
+              "location": "features/step_definitions/step_teste_01.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 15761453983
+              "duration": 7282220686
             }
           },
           {
             "keyword": "E ",
-            "name": "seleciono o produto \"Fralda_g\"",
-            "line": 27,
+            "name": "seleciono o produto \"kindle_paperwhite\"",
+            "line": 19,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:25"
+              "location": "features/step_definitions/step_teste_01.rb:14"
             },
             "result": {
-              "status": "failed",
-              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/step_definitions/step_teste_01.rb:29:in `\"seleciono o produto {string}\"'\nfeatures/teste_1.feature:27:in `E seleciono o produto \"Fralda_g\"'",
-              "duration": 30004437077
+              "status": "passed",
+              "duration": 4457148071
             }
           },
           {
             "keyword": "E ",
             "name": "clico em adicionar no carrinho",
-            "line": 28,
+            "line": 20,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:32"
+              "location": "features/step_definitions/step_teste_01.rb:23"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1635161730
             }
           },
           {
             "keyword": "Então ",
-            "name": "valido que \"Fralda_g\" foi adicionado no carrinho",
-            "line": 29,
+            "name": "valido que \"kindle_paperwhite\" foi adicionado no carrinho",
+            "line": 21,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:36"
+              "location": "features/step_definitions/step_teste_01.rb:28"
             },
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "expected to find css \"span[class='a-size-medium a-color-base sc-product-title']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:38:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:33:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:21:in `Então valido que \"kindle_paperwhite\" foi adicionado no carrinho'",
+              "duration": 31667968444
             }
           }
         ],
@@ -133,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 263852898
+              "duration": 190314797
             }
           },
           {
@@ -142,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94835398
+              "duration": 111086455
             }
           }
         ]
