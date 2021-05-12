@@ -23,7 +23,6 @@ class Metodos
 
     def add_carrinho
         find_all(EL['add_carrinho'])[0].click
-        #find_button(EL['add_carrinho']).click
     end
 
     def acessar_carrinho_inicio        
@@ -36,6 +35,10 @@ class Metodos
 
     def valida_texto(produto)
         assert_selector(EL['titulo_produto_carrinho'],  visible: true)
-        all(EL['titulo_produto_carrinho'])[0].set(produto)
+        all(EL['titulo_produto_carrinho'])[0].set(produto) 
+
+    def selecionar_compra_uma_vez
+        find_all(EL['botao_compra_uma_vez'])[0].click
     end
+
 end

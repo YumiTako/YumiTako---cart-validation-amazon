@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28967
+              "duration": 38921
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24529
+              "duration": 53542
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2292824117
+              "duration": 2177481087
             }
           }
         ],
@@ -75,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1681235043
+              "duration": 2729193584
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7041638066
+              "duration": 7013140981
             }
           },
           {
@@ -95,11 +95,11 @@
             "name": "seleciono o produto \"Fralda_g\"",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:14"
+              "location": "features/step_definitions/step_teste_01.rb:12"
             },
             "result": {
               "status": "passed",
-              "duration": 2849242850
+              "duration": 2978339600
             }
           },
           {
@@ -107,11 +107,11 @@
             "name": "clico em adicionar no carrinho",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:23"
+              "location": "features/step_definitions/step_teste_01.rb:22"
             },
             "result": {
               "status": "passed",
-              "duration": 6801136234
+              "duration": 6171542282
             }
           },
           {
@@ -119,11 +119,12 @@
             "name": "valido que \"Fralda_g\" foi adicionado no carrinho",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:29"
+              "location": "features/step_definitions/step_teste_01.rb:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 1634538993
+              "status": "failed",
+              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:31:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:13:in `Então valido que \"Fralda_g\" foi adicionado no carrinho'",
+              "duration": 36403979162
             }
           }
         ],
@@ -134,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31164
+              "duration": 144410541
             }
           },
           {
@@ -143,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 129877862
+              "duration": 68027706
             }
           }
         ]
@@ -172,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22611
+              "duration": 24262
             }
           },
           {
@@ -181,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 69653
+              "duration": 26780
             }
           },
           {
@@ -190,7 +191,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 965892423
+              "duration": 978587825
             }
           }
         ],
@@ -204,7 +205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1575319380
+              "duration": 1786625678
             }
           },
           {
@@ -216,7 +217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6851068348
+              "duration": 7284518317
             }
           },
           {
@@ -224,11 +225,11 @@
             "name": "seleciono o produto \"kindle_paperwhite\"",
             "line": 19,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:14"
+              "location": "features/step_definitions/step_teste_01.rb:12"
             },
             "result": {
               "status": "passed",
-              "duration": 4377505688
+              "duration": 9382086863
             }
           },
           {
@@ -236,11 +237,11 @@
             "name": "clico em adicionar no carrinho",
             "line": 20,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:23"
+              "location": "features/step_definitions/step_teste_01.rb:22"
             },
             "result": {
               "status": "passed",
-              "duration": 6278619489
+              "duration": 6287211836
             }
           },
           {
@@ -248,140 +249,12 @@
             "name": "valido que \"kindle_paperwhite\" foi adicionado no carrinho",
             "line": 21,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1474018910
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 30552
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 263584170
-            }
-          }
-        ]
-      },
-      {
-        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
-        "keyword": "Cenario",
-        "name": "Pesquisar e colocar um produto no carrinho, validando que o mesmo é correto",
-        "description": "",
-        "line": 24,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@cart_validation_amazon",
-            "line": 4
-          },
-          {
-            "name": "@Lenço_umidecido",
-            "line": 23
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 27518
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 58689
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1034462353
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que entrei no site da amazon",
-            "line": 25,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:2"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1524131803
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "busquei por \"Lenço_umidecido\"",
-            "line": 26,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6628328874
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "seleciono o produto \"Lenço_umidecido\"",
-            "line": 27,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2725845937
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em adicionar no carrinho",
-            "line": 28,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:23"
+              "location": "features/step_definitions/step_teste_01.rb:28"
             },
             "result": {
               "status": "failed",
-              "error_message": "element not interactable\n  (Session info: chrome=89.0.4389.114) (Selenium::WebDriver::Error::ElementNotInteractableError)\n#0 0x55cfd3ba32b9 <unknown>\n./features/support/pages/Metodos.rb:25:in `add_carrinho'\n./features/step_definitions/step_teste_01.rb:25:in `\"clico em adicionar no carrinho\"'\nfeatures/teste_1.feature:28:in `E clico em adicionar no carrinho'",
-              "duration": 30021361312
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "valido que \"Lenço_umidecido\" foi adicionado no carrinho",
-            "line": 29,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:29"
-            },
-            "result": {
-              "status": "skipped"
+              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:31:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:21:in `Então valido que \"kindle_paperwhite\" foi adicionado no carrinho'",
+              "duration": 36320213780
             }
           }
         ],
@@ -392,7 +265,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 491706103
+              "duration": 201496256
             }
           },
           {
@@ -401,265 +274,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 114016381
-            }
-          }
-        ]
-      },
-      {
-        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
-        "keyword": "Cenario",
-        "name": "Pesquisar e colocar um produto no carrinho, validando que o mesmo é correto",
-        "description": "",
-        "line": 32,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@cart_validation_amazon",
-            "line": 4
-          },
-          {
-            "name": "@Presente_amigosecreto_murilo_hehehehe",
-            "line": 31
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31706
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33224
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 970522783
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que entrei no site da amazon",
-            "line": 33,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:2"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1555747967
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "busquei por \"Presente_amigosecreto_murilo_hehehehe\"",
-            "line": 34,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6685532257
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "seleciono o produto \"Presente_amigosecreto_murilo_hehehehe\"",
-            "line": 35,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2398431423
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em adicionar no carrinho",
-            "line": 36,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6160584664
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "valido que \"Presente_amigosecreto_murilo_hehehehe\" foi adicionado no carrinho",
-            "line": 37,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:29"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1445382215
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31280
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 121527554
-            }
-          }
-        ]
-      },
-      {
-        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
-        "keyword": "Cenario",
-        "name": "Pesquisar e colocar um produto no carrinho, validando que o mesmo é correto",
-        "description": "",
-        "line": 40,
-        "type": "scenario",
-        "tags": [
-          {
-            "name": "@cart_validation_amazon",
-            "line": 4
-          },
-          {
-            "name": "@Lenço_umidecido",
-            "line": 39
-          }
-        ],
-        "before": [
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 26290
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34100
-            }
-          },
-          {
-            "match": {
-              "location": "features/support/hooks.rb:7"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000585662
-            }
-          }
-        ],
-        "steps": [
-          {
-            "keyword": "Dado ",
-            "name": "que entrei no site da amazon",
-            "line": 41,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:2"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1901634281
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "busquei por \"Lenço_umidecido\"",
-            "line": 42,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6820084338
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "seleciono o produto \"Lenço_umidecido\"",
-            "line": 43,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2742034606
-            }
-          },
-          {
-            "keyword": "E ",
-            "name": "clico em adicionar no carrinho",
-            "line": 44,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:23"
-            },
-            "result": {
-              "status": "failed",
-              "error_message": "element not interactable\n  (Session info: chrome=89.0.4389.114) (Selenium::WebDriver::Error::ElementNotInteractableError)\n#0 0x561c208052b9 <unknown>\n./features/support/pages/Metodos.rb:25:in `add_carrinho'\n./features/step_definitions/step_teste_01.rb:25:in `\"clico em adicionar no carrinho\"'\nfeatures/teste_1.feature:44:in `E clico em adicionar no carrinho'",
-              "duration": 30050195415
-            }
-          },
-          {
-            "keyword": "Então ",
-            "name": "valido que \"Lenço_umidecido\" foi adicionado no carrinho",
-            "line": 45,
-            "match": {
-              "location": "features/step_definitions/step_teste_01.rb:29"
-            },
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ],
-        "after": [
-          {
-            "match": {
-              "location": "features/support/hooks.rb:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 178500722
-            }
-          },
-          {
-            "match": {
-              "location": "capybara-3.35.3/lib/capybara/cucumber.rb:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 81183018
+              "duration": 78667227
             }
           }
         ]
