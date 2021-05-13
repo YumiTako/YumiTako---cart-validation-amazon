@@ -10,5 +10,5 @@ Cenario: Pesquisar e colocar um produto no carrinho, validando que o mesmo é co
     E busquei por "Lenço_umidecido"
     E seleciono o produto "Lenço_umidecido"
     E seleciono comprar apenas uma vez
-    E clico em adicionar no carrinho
+    Quando clico em adicionar no carrinho
     Então valido que "Lenço_umidecido" foi adicionado no carrinho 

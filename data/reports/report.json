@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38921
+              "duration": 40342
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53542
+              "duration": 58203
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2177481087
+              "duration": 1693785554
             }
           }
         ],
@@ -75,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2729193584
+              "duration": 7277432324
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7013140981
+              "duration": 8814915010
             }
           },
           {
@@ -95,23 +95,23 @@
             "name": "seleciono o produto \"Fralda_g\"",
             "line": 11,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:12"
+              "location": "features/step_definitions/step_teste_01.rb:11"
             },
             "result": {
               "status": "passed",
-              "duration": 2978339600
+              "duration": 4006587698
             }
           },
           {
-            "keyword": "E ",
+            "keyword": "Quando ",
             "name": "clico em adicionar no carrinho",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:22"
+              "location": "features/step_definitions/step_teste_01.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 6171542282
+              "duration": 6474841355
             }
           },
           {
@@ -119,12 +119,12 @@
             "name": "valido que \"Fralda_g\" foi adicionado no carrinho",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:28"
+              "location": "features/step_definitions/step_teste_01.rb:26"
             },
             "result": {
               "status": "failed",
-              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:31:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:13:in `Então valido que \"Fralda_g\" foi adicionado no carrinho'",
-              "duration": 36403979162
+              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:29:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:13:in `Então valido que \"Fralda_g\" foi adicionado no carrinho'",
+              "duration": 36691239856
             }
           }
         ],
@@ -135,7 +135,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144410541
+              "duration": 144686077
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 68027706
+              "duration": 74832661
             }
           }
         ]
@@ -173,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24262
+              "duration": 34382
             }
           },
           {
@@ -182,7 +182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26780
+              "duration": 77994
             }
           },
           {
@@ -191,7 +191,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 978587825
+              "duration": 1179154162
             }
           }
         ],
@@ -205,7 +205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1786625678
+              "duration": 3568970364
             }
           },
           {
@@ -217,7 +217,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7284518317
+              "duration": 7676342062
             }
           },
           {
@@ -225,23 +225,23 @@
             "name": "seleciono o produto \"kindle_paperwhite\"",
             "line": 19,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:12"
+              "location": "features/step_definitions/step_teste_01.rb:11"
             },
             "result": {
               "status": "passed",
-              "duration": 9382086863
+              "duration": 10532753081
             }
           },
           {
-            "keyword": "E ",
+            "keyword": "Quando ",
             "name": "clico em adicionar no carrinho",
             "line": 20,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:22"
+              "location": "features/step_definitions/step_teste_01.rb:21"
             },
             "result": {
               "status": "passed",
-              "duration": 6287211836
+              "duration": 8944542925
             }
           },
           {
@@ -249,12 +249,11 @@
             "name": "valido que \"kindle_paperwhite\" foi adicionado no carrinho",
             "line": 21,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:28"
+              "location": "features/step_definitions/step_teste_01.rb:26"
             },
             "result": {
-              "status": "failed",
-              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:31:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:21:in `Então valido que \"kindle_paperwhite\" foi adicionado no carrinho'",
-              "duration": 36320213780
+              "status": "passed",
+              "duration": 7205550599
             }
           }
         ],
@@ -265,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 201496256
+              "duration": 42348
             }
           },
           {
@@ -274,7 +273,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 78667227
+              "duration": 162609052
             }
           }
         ]

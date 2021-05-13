@@ -34,11 +34,17 @@ class Metodos
     end
 
     def valida_texto(produto)
+        assert_selector(EL['titulo_produto_carrinho_v1'],  visible: true)
+        all(EL['titulo_produto_carrinho'])[0].set(produto) 
+    end
+
+    def valida_texto_2(produto)
         assert_selector(EL['titulo_produto_carrinho'],  visible: true)
         all(EL['titulo_produto_carrinho'])[0].set(produto) 
+    end
 
     def selecionar_compra_uma_vez
         find_all(EL['botao_compra_uma_vez'])[0].click
-    end
+    endvou
 
 end
