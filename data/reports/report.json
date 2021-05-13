@@ -1,26 +1,26 @@
 [
   {
-    "uri": "features/teste_1.feature",
-    "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho",
+    "uri": "features/teste_02.feature",
+    "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho-com-variação-do-elemento-css",
     "keyword": "Funcionalidade",
-    "name": "Validando que busquei produto na amazon e coloquei o produto pesquisado no carrinho",
+    "name": "Validando que busquei produto na amazon e coloquei o produto pesquisado no carrinho com variação do elemento css",
     "description": "",
     "line": 5,
     "tags": [
       {
-        "name": "@cart_validation_amazon",
+        "name": "@cart_validation_amazon_v",
         "line": 4
       }
     ],
     "comments": [
       {
-        "value": "#encode:",
+        "value": "#encode: UTF-8",
         "line": 2
       }
     ],
     "elements": [
       {
-        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
+        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho-com-variação-do-elemento-css;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
         "keyword": "Cenario",
         "name": "Pesquisar e colocar um produto no carrinho, validando que o mesmo é correto",
         "description": "",
@@ -28,7 +28,7 @@
         "type": "scenario",
         "tags": [
           {
-            "name": "@cart_validation_amazon",
+            "name": "@cart_validation_amazon_v",
             "line": 4
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 40342
+              "duration": 42141
             }
           },
           {
@@ -52,7 +52,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58203
+              "duration": 41781
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1693785554
+              "duration": 1758995653
             }
           }
         ],
@@ -75,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7277432324
+              "duration": 6867973984
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8814915010
+              "duration": 8830878925
             }
           },
           {
@@ -99,7 +99,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4006587698
+              "duration": 4326710576
             }
           },
           {
@@ -111,20 +111,19 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6474841355
+              "duration": 6746823318
             }
           },
           {
             "keyword": "Então ",
-            "name": "valido que \"Fralda_g\" foi adicionado no carrinho",
+            "name": "valido que \"Fralda_g\" foi adicionado no carrinho variação de elemento",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:26"
+              "location": "features/step_definitions/step_teste_01.rb:32"
             },
             "result": {
-              "status": "failed",
-              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:37:in `valida_texto'\n./features/step_definitions/step_teste_01.rb:29:in `\"valido que {string} foi adicionado no carrinho\"'\nfeatures/teste_1.feature:13:in `Então valido que \"Fralda_g\" foi adicionado no carrinho'",
-              "duration": 36691239856
+              "status": "passed",
+              "duration": 7330971954
             }
           }
         ],
@@ -135,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 144686077
+              "duration": 1815060
             }
           },
           {
@@ -144,13 +143,13 @@
             },
             "result": {
               "status": "passed",
-              "duration": 74832661
+              "duration": 148571350
             }
           }
         ]
       },
       {
-        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
+        "id": "validando-que-busquei-produto-na-amazon-e-coloquei-o-produto-pesquisado-no-carrinho-com-variação-do-elemento-css;pesquisar-e-colocar-um-produto-no-carrinho,-validando-que-o-mesmo-é-correto",
         "keyword": "Cenario",
         "name": "Pesquisar e colocar um produto no carrinho, validando que o mesmo é correto",
         "description": "",
@@ -158,7 +157,7 @@
         "type": "scenario",
         "tags": [
           {
-            "name": "@cart_validation_amazon",
+            "name": "@cart_validation_amazon_v",
             "line": 4
           },
           {
@@ -173,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 34382
+              "duration": 21048
             }
           },
           {
@@ -182,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 77994
+              "duration": 33908
             }
           },
           {
@@ -191,7 +190,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1179154162
+              "duration": 996023476
             }
           }
         ],
@@ -205,7 +204,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3568970364
+              "duration": 6818106882
             }
           },
           {
@@ -217,7 +216,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7676342062
+              "duration": 9553921720
             }
           },
           {
@@ -229,7 +228,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10532753081
+              "duration": 48951044874
             }
           },
           {
@@ -241,19 +240,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8944542925
+              "duration": 7933192039
             }
           },
           {
             "keyword": "Então ",
-            "name": "valido que \"kindle_paperwhite\" foi adicionado no carrinho",
+            "name": "valido que \"kindle_paperwhite\" foi adicionado no carrinho variação de elemento",
             "line": 21,
             "match": {
-              "location": "features/step_definitions/step_teste_01.rb:26"
+              "location": "features/step_definitions/step_teste_01.rb:32"
             },
             "result": {
-              "status": "passed",
-              "duration": 7205550599
+              "status": "failed",
+              "error_message": "expected to find css \"span[class='a-size-medium sc-product-title a-text-bold']\" but there were no matches (Capybara::ExpectationNotMet)\n./features/support/pages/Metodos.rb:42:in `valida_texto_2'\n./features/step_definitions/step_teste_01.rb:35:in `\"valido que {string} foi adicionado no carrinho variação de elemento\"'\nfeatures/teste_02.feature:21:in `Então valido que \"kindle_paperwhite\" foi adicionado no carrinho variação de elemento'",
+              "duration": 38457622640
             }
           }
         ],
@@ -264,7 +264,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 42348
+              "duration": 146676853
             }
           },
           {
@@ -273,7 +273,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 162609052
+              "duration": 68114494
             }
           }
         ]

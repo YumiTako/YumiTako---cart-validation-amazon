@@ -28,3 +28,9 @@ Então("valido que {string} foi adicionado no carrinho") do |produto|
   sleep(5)
   Metodos.new.valida_texto(MASSA[produto]['nome'])
 end
+
+Então("valido que {string} foi adicionado no carrinho variação de elemento") do |produto|
+  Metodos.new.acessar_carrinho_poscompra
+  sleep(5)
+  Metodos.new.valida_texto_2(MASSA[produto]['nome'])
+end
