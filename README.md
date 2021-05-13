@@ -17,11 +17,27 @@ No contexto de compra recorrente, selecionamos comprar apenas uma vez.
 <b>Linguagem de escrita de cenários de Teste:</b>Cucumber/pt-Gherkin<br>
 <b>Web Driver:</b>Selenium
   
+# Configuração Linux
+Faremos a configuração da máquina via terminal, para tal, basta realizar os comandos abaixo:
+
+<b>Atualização de pacotes Ubuntu</b>
+
+`sudo apt update`
+
+<b>Instalação do Ruby</b>
+
+`sudo apt-get install ruby-full`
+
+
 # O teste
 O BDD foi feito no aquivo teste_1.feature. Este é o teste padrão, para produtos que não possuem opção de compra poir recorrência.
 Para rodar o teste, uma vez que sua máquina esteja devidamemente configurada,  basta dar o comando no terminal
 
 `cucumber -t@teste_1`
+
+Foi observado que há uma mudança no elemento no ultimo step. Por isso ciamos outro BDD para, com um método diferente para consegui passar o teste caso ele falhe ao executar como indicado acima. Para tal use o seguinte comando:
+
+`cucumber -t@teste_2`
 
 Também temos o compra_recorrente.feature onde preparamos o canário de compras com opção de recorrência. Inicialmente o cenário é de uma compra isolada apenas. Para realizar esse teste basta utilizar o comando abaixo:
 
